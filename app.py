@@ -93,7 +93,7 @@ def recommend(movie):
 st.title("Movie Recommendation System")
 
 movie_list = new_df['title'].values
-selected_movie = st.selectbox("Select a movie you like:", [""] + list(movie_list)
+selected_movie = st.selectbox("Select a movie you like:", [""] + list(movie_list))
 
 if st.button('Recommend'):
     recommendations = recommend(selected_movie)
