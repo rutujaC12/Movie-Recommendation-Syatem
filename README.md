@@ -1,4 +1,6 @@
+Here is the updated `README.md` with the additional information and the website link:
 
+```markdown
 # Movie Recommendation System
 
 This is a movie recommendation system built with Streamlit. It recommends movies based on the selected movie and displays their posters using the TMDb API.
@@ -26,7 +28,7 @@ streamlit run app.py
 
 ## Deployment
 
-This app is deployed on [Streamlit Cloud](https://share.streamlit.io/). Any changes pushed to this repository will automatically update the deployed app.
+This app is deployed on [Streamlit Cloud](https://movie-recommendation-syatem.streamlit.app/). Any changes pushed to this repository will automatically update the deployed app.
 
 ## Usage
 
@@ -44,11 +46,16 @@ This app is deployed on [Streamlit Cloud](https://share.streamlit.io/). Any chan
 
 ## TMDb API Configuration
 
-To display movie posters, you need a TMDb API key. Sign up on [TMDb](https://www.themoviedb.org/) and get your API key. Add this API key in the `app.py` file:
+To display movie posters, you need a TMDb API key. The key used in this project is:
 
 ```python
 API_KEY = 'e259b4560b93c106eb2e22eb5714d4a4'
 ```
+
+## Project Details
+
+- This is a machine learning project that utilizes content-based filtering to recommend movies.
+- Developed with: [Streamlit](https://streamlit.io/)
 
 ## Credits
 
