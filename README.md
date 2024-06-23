@@ -34,17 +34,6 @@ This app is deployed on [Streamlit Cloud](https://share.streamlit.io/). Any chan
 2. Click on the "Recommend" button.
 3. The app will display the recommended movies along with their posters.
 
-## Repository Structure
-
-```
-my-streamlit-app/
-├── app.py                # Main Streamlit app
-├── credits.csv           # Credits data
-├── movies.csv            # Movies data
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
-```
-
 ## Requirements
 
 - Python 3.7 or higher
@@ -58,10 +47,8 @@ my-streamlit-app/
 To display movie posters, you need a TMDb API key. Sign up on [TMDb](https://www.themoviedb.org/) and get your API key. Add this API key in the `app.py` file:
 
 ```python
-API_KEY = 'your_tmdb_api_key'
+API_KEY = 'e259b4560b93c106eb2e22eb5714d4a4'
 ```
-
-Replace `'your_tmdb_api_key'` with your actual API key.
 
 ## Credits
 
@@ -72,5 +59,3 @@ Replace `'your_tmdb_api_key'` with your actual API key.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
-
-This `README.md` includes the necessary information about your project, including features, installation steps, running the app locally, deployment details, and usage instructions. Make sure to replace `'your_tmdb_api_key'` with your actual TMDb API key in the `app.py` file.
