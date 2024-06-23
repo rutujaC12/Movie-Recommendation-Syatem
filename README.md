@@ -1,6 +1,4 @@
-Here is the updated `README.md` with the additional information and the website link:
 
-```markdown
 # Movie Recommendation System
 
 This is a movie recommendation system built with Streamlit. It recommends movies based on the selected movie and displays their posters using the TMDb API.
